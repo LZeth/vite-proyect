@@ -22,6 +22,14 @@ function App({ texto }) {
         >
           Cambiar Estado
         </button>
+        <button 
+         onClick ={()=> {
+          alert("hi");
+        }}
+        >
+          Alert
+        </button>
+
 
         <Button texto = {"Compras"}></Button>
       </div>
